@@ -1,0 +1,28 @@
+{
+  "name": "action-notification-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/factorial-finance/action-notification-parser.git",
+  "author": "weather <37855557+weather94@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@ton/core": "^0.60.1",
+    "@ton/ton": "^15.2.1"
+  }
+}

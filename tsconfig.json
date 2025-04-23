@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext", // ESM: Node.js 20+ 기준
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true, // 엄격 모드
+    "esModuleInterop": true, // CommonJS ↔ ESM 호환
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
